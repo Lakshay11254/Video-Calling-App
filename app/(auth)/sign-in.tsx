@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function Page() {
+export default function SignInScreen() {
   return (
     <View>
-      <Text>Join Call</Text>
+      <Text>SignInScreen</Text>
     </View>
   )
 }

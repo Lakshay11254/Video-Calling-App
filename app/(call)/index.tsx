@@ -7,7 +7,17 @@ export default function Page() {
 
   return (
     <View>
-      <SignedIn>
+<Text>Hello World</Text>
+
+<SignedIn>
+  <Text>Signed in</Text>
+</SignedIn>
+
+<SignedOut>
+  <Text>Signed Out</Text>
+</SignedOut>
+
+      {/* <SignedIn>
         <Text>Hello {user?.emailAddresses[0].emailAddress}</Text>
       </SignedIn>
       <SignedOut>
@@ -17,7 +27,7 @@ export default function Page() {
         <Link href="/">
           <Text>Sign Up</Text>
         </Link>
-      </SignedOut>
+      </SignedOut> */}
     </View>
   )
 }
