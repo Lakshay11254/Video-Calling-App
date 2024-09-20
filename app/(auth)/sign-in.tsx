@@ -28,8 +28,7 @@ export default function SignInScreen() {
                 await setActive({ session: signInAttempt.createdSessionId })
                 router.replace('/')
             } else {
-                // See https://clerk.com/docs/custom-flows/error-handling
-                // for more info on error handling
+             
                 console.error(JSON.stringify(signInAttempt, null, 2))
             }
         } catch (err: any) {
@@ -107,7 +106,7 @@ export default function SignInScreen() {
 
             {/* SignInWithAuth */}
 
-            {/* divider */}
+            {/* divider after sign in with */}  
             <View
                 style={{
                     borderBottomColor: "white",
