@@ -5,6 +5,7 @@ import { TextInput } from 'react-native-gesture-handler'
 import { useSignIn } from '@clerk/clerk-expo'
 import { MaterialIcons } from '@expo/vector-icons'
 import StyledButton from '@/components/StyledButton'
+import SignInWithOAuth from '@/components/SignInWithOAuth'
 
 export default function SignInScreen() {
 
@@ -104,7 +105,7 @@ export default function SignInScreen() {
                 OR
             </Text>
 
-            {/* SignInWithAuth */}
+            <SignInWithOAuth/>
 
             {/* divider after sign in with */}  
             <View
