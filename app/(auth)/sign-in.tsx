@@ -1,7 +1,6 @@
-import { View, Text, Button, Alert, KeyboardAvoidingView, Platform } from 'react-native'
+import { View, Text, Button, TextInput, Alert, KeyboardAvoidingView, Platform } from 'react-native'
 import React, { useState } from 'react'
 import { Link, useRouter } from 'expo-router'
-import { TextInput } from 'react-native-gesture-handler'
 import { useSignIn } from '@clerk/clerk-expo'
 import { MaterialIcons } from '@expo/vector-icons'
 import StyledButton from '@/components/StyledButton'

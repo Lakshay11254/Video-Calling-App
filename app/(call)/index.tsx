@@ -1,5 +1,4 @@
-import { SignedIn, SignedOut, useUser } from '@clerk/clerk-expo'
-import { Link } from 'expo-router'
+import { SignedIn,useUser } from '@clerk/clerk-expo'
 import { Text, View } from 'react-native'
 
 export default function Page() {
@@ -13,9 +12,7 @@ export default function Page() {
   <Text>Signed in</Text>
 </SignedIn>
 
-<SignedOut>
-  <Text>Signed Out</Text>
-</SignedOut>
+
 
       {/* <SignedIn>
         <Text>Hello {user?.emailAddresses[0].emailAddress}</Text>
